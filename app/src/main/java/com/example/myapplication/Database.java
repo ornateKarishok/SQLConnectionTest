@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import java.net.InetSocketAddress;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -7,16 +8,16 @@ public class Database {
     private Connection connection;
 
     // For Amazon Postgresql
-     private final String host = "cpanel20.mserwis.pl";
+     //private final String host = "cpanel20.mserwis.pl";
 
     // For Google Cloud Postgresql
     //private final String host = "35.44.16.169";
 
     // For Local PostgreSQL
-    //private final String host = "10.0.2.2";
+    private final String host = "10.26.0.16";
 
     private final String database = "apkh_meeting_voicerecord";
-    private final int port = 3306;
+    private final int port = 5432;
     private final String user = "apkh@localhost";
     private final String pass = "123456";
     private String url = "jdbc:postgresql://%s:%d/%s";
