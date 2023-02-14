@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SQL Connection</string>
+    <string name="server_down">server_down</string>
+    <string name="start_server">start_server</string>
+    <string name="stop_server">stop_server</string>
+    <string name="server_running">server_running</string>
 </resources>
